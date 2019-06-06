@@ -1,0 +1,6 @@
+{
+	"name": "Webpack Bundle Sample",
+	"description": "A barebones Webpack Bundled App",
+	"repository": "https://github.com/efloden/react-for-heroku",
+	"keywords": ["webpack"]
+  }
