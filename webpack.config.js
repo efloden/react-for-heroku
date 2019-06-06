@@ -1,3 +1,5 @@
+var webpack = require('webpack');
+
 module.exports = {
   entry: [
     './src/index.js'
@@ -7,6 +9,11 @@ module.exports = {
     publicPath: '/',
     filename: 'bundle.js'
   },
+  plugins: [
+	  new webpack.DefinePlugin({
+		  __API__: process.env.API_CONST
+	  })
+  ],
   module: {
     rules: [
       {
