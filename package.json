@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "webpack-dev-server --mode development --open",
+    "start": "node server.js",
     "heroku-postbuild": "webpack -p"
   },
   "author": "",
@@ -18,5 +19,8 @@
     "style-loader": "^0.21.0",
     "webpack": "^4.8.3",
     "webpack-dev-server": "^3.1.4"
+  },
+  "dependencies": {
+    "express": "^4.16.3"
   }
 }
